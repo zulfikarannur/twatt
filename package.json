@@ -1,0 +1,27 @@
+{
+  "name": "twatt",
+  "version": "0.0.1",
+  "description": "twatt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulfikarannur/twatt.git"
+  },
+  "author": "zulfikarannur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zulfikarannur/twatt/issues"
+  },
+  "homepage": "https://github.com/zulfikarannur/twatt#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "oauth": "^0.9.15"
+  }
+}
